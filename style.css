@@ -1,0 +1,244 @@
+@font-face { font-family: Aller_Bd; src: url('Aller_Bd.ttf'); } 
+.Main {
+	text-align: center;
+	float: center;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.header{
+	min-width: 100px;
+	text-align: center;
+	position: relative;
+	float: center;
+	background-color: lightpink;
+	box-shadow: 0px 10px 15px #888888;
+	z-index: 6;
+}
+.spacer{
+	padding-top: 50px;
+	font-family: Aller_Bd;
+	font-size: 20pt;
+	margin: auto;
+	z-index: -5;
+}
+.spacer2{
+	padding-top: 30px;
+	font-family: Aller_Bd;
+	font-size: 20pt;
+	background: url("http://learncs8.com/images/bg.png");
+	z-index: -6;
+}
+.face{
+	display: inline-block;
+	font-family: Aller_Bd;
+	font-size: 8pt;
+	padding: 10px;
+}
+.abouttheteam{
+	display: inline-block;
+	max-width:400px;
+	text-align: left;
+	margin: auto;
+	font-family: Aller_Bd;
+	font-size: 12.4pt;
+	padding: 10px;
+	padding-bottom: 50px;
+}
+.games{
+	font-family: Aller_Bd;
+	font-size: 20pt;
+	position: relative;
+	background-color: lightblue;
+	/*box-shadow: 0px 10px 5px #888, 0px -10px 5px #888;*/
+	box-shadow: 0px 10px 15px #888888;
+	z-index: 5;
+}
+.greenlight{
+	font-family: Aller_Bd;
+	font-size: 20pt;
+	position: relative;
+	color: #acb2b8;
+	text-align: left;
+	/*box-shadow: 0px 10px 5px #888, 0px -10px 5px #888;*/
+	box-shadow: 0px 10px 15px #888888;
+	z-index: 1;
+	background: url(http://steamcommunity-a.akamaihd.net/public/images/apphubs/blue_body_darker_repeat.jpg?v=1);
+}
+p{
+	width: 700px;
+		margin: auto;
+}
+.picture{
+	display: inline-block;
+	padding: 30px;}
+.white1{
+	position: relative;
+	margin: auto;
+	box-shadow: 0px 10px 15px #888888;
+	z-index: 4;
+}
+.white2{
+	background-color: #DAF0F8;
+	z-index: -2;
+	position: relative;
+	margin: auto;
+	box-shadow: 0px 10px 15px #888888;
+}
+.text{
+	display: inline-block;
+	max-width: 545px;
+	font-family: Aller_Bd;
+	font-size: 12.4pt;
+	text-align: left;
+	vertical-align: top;
+	padding: 10px;
+		z-index: 7;
+}
+.text2{
+	display: inline-block;
+	max-width: 545px;
+	font-family: Aller_Bd;
+	font-size: 12.4pt;
+	text-align: left;
+	vertical-align: top;
+	padding: 10px;
+}
+.fanart{
+	font-family: Aller_Bd;
+	font-size: 20pt;
+	position: relative;
+	background-color: #9999FF;
+	/*box-shadow: 0px 10px 5px #888, 0px -10px 5px #888;*/
+	box-shadow: 0px 10px 15px #888888;
+	z-index: 3;
+}
+.slider{
+	font-family: Aller_Bd;
+	font-size: 8pt;
+}
+.spacer3{
+	font-family: Aller_Bd;
+	font-size: 15pt;
+	text-align: center;
+}
+
+.paragraph{	
+	max-width:500px;
+	font-family: Aller_Bd;
+	font-size: 15pt;
+	text-align: center;
+	margin: auto;
+}
+.footer-content {
+    clear: both;
+    background: url(section-sep.png) repeat-x left 25px;
+    max-width: 400px;
+    height: 20px;
+    padding: 10px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+.footer-text {
+    text-shadow: 0 1px 0 #FFF;
+    font-family: "Aller_BD", Arial;
+    font-size: .75em;
+    margin: 0 auto;
+    clear: both;
+}
+
+/*button */
+
+.button {
+	-moz-box-shadow:inset 0px 1px 0px -6px #dcecfb;
+	-webkit-box-shadow:inset 0px 1px 0px -6px #dcecfb;
+	box-shadow:inset 0px 1px 0px -6px #dcecfb;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bddbfa), color-stop(1, #80b5ea) );
+	background:-moz-linear-gradient( center top, #bddbfa 5%, #80b5ea 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bddbfa', endColorstr='#80b5ea');
+	background-color:#bddbfa;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0px;
+	border:2px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:170px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 4px 6px #528ecc;
+
+}
+.button2 {
+	-moz-box-shadow:inset 0px 1px 0px -6px #dcecfb;
+	-webkit-box-shadow:inset 0px 1px 0px -6px #dcecfb;
+	box-shadow:inset 0px 1px 0px -6px #dcecfb;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bddbfa), color-stop(1, #80b5ea) );
+	background:-moz-linear-gradient( center top, #bddbfa 5%, #80b5ea 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bddbfa', endColorstr='#80b5ea');
+	background-color:#bddbfa;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0px;
+	border:2px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:300px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 4px 6px #528ecc;
+
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #80b5ea), color-stop(1, #bddbfa) );
+	background:-moz-linear-gradient( center top, #80b5ea 5%, #bddbfa 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80b5ea', endColorstr='#bddbfa');
+	background-color:#80b5ea;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+.button2:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #80b5ea), color-stop(1, #bddbfa) );
+	background:-moz-linear-gradient( center top, #80b5ea 5%, #bddbfa 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80b5ea', endColorstr='#bddbfa');
+	background-color:#80b5ea;
+}.button2:active {
+	position:relative;
+	top:1px;
+}
