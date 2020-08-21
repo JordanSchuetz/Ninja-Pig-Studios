@@ -27,7 +27,7 @@ body{
 	padding-top: 30px;
 	font-family: Aller_Bd;
 	font-size: 20pt;
-	background: url("http://learncs8.com/images/bg.png");
+	/*background: url("http://learncs8.com/images/bg.png");*/
 	z-index: -6;
 }
 .face{
